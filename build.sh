@@ -5,6 +5,7 @@ set -o nounset
 set -o xtrace
 
 echo "---> Starting custom build . . ."
+sleep 3600
 SRC_DIR=$(pwd)/src
 OCP_DIR=${SRC_DIR}/ocp
 CONFIG_SECRET_NAME=builder-config
